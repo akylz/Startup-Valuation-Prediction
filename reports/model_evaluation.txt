@@ -1,0 +1,12 @@
+Best parameters for Random Forest: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+Best parameters for Gradient Boosting: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200, 'subsample': 0.7}
+
+Final Model Performance:
+- Linear Regression: MAE = 1,262,371,406.15, R² = 0.91
+- Random Forest: MAE = 74,406,466.50, R² = 1.00
+- Gradient Boosting: MAE = 79,506,619.01, R² = 1.00
+
+Observations:
+- Random Forest had the lowest MAE and highest accuracy.
+- Gradient Boosting performed similarly but could be fine-tuned further.
+- Future work: Prevent overfitting, add more financial variables, or try deep learning.
